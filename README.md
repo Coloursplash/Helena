@@ -9,7 +9,7 @@ If you find a bug while using Helena, create an issue on the github with the tag
 ## Installation
 
 Installing Helena is as simple as running this command
-'git clone https://github.com/Coloursplash/Helena && cd Helena && python installer'
+`sudo git clone https://github.com/Coloursplash/Helena && cd Helena && python installer`
 
 ## Contributing
 
@@ -24,7 +24,7 @@ This project is licensed under the 'GNU General Public License v3.0'. See the [L
 
 ## Authors
 
-***Coloursplash**
+**Coloursplash**
 
 See also a list of [contributors](https://github.com/Coloursplash/Helena/graphs/contributors) who have helped improve this project.
 
