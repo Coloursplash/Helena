@@ -8,7 +8,7 @@ If you find a bug while using Helena, create an issue on the github with the tag
 
 ## Installation
 
-Installing Helena is as simple as running this command
+Installing Helena is as simple as running this command: \
 `sudo git clone https://github.com/Coloursplash/Helena && cd Helena && python installer`
 
 ## Contributing
