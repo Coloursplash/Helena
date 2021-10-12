@@ -2,7 +2,7 @@
 
 An open-source Personal Assistant for Linux.
 
-Helena is a simple personal assistant built for Linux which runs on the command line. Filled with useful skills from the get go, you can easily program new skills for Helena. To learn more about creating and contributing skills, [click here](https://github.com/Coloursplash/Helena/blob/main/docs/creating-skills.md).
+Helena is a simple personal assistant built for Linux which runs on the command line. Filled with useful skills from the get go, you can easily program new skills for Helena. To learn more about creating and contributing skills, [click here](https://github.com/Coloursplash/Helena/blob/main/docs/skills/creating-skills.md).
 
 If you find a bug while using Helena, create an issue on the github with the tag 'bug'.
 
@@ -13,9 +13,9 @@ Installing Helena is as simple as running this command: \
 
 ## Contributing
 
-* Pull requests are accepted!
+* Before working on a new feature, please create an issue with the tag 'new_feature' to make sure it is wanted.
 * Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) guidelines. Before making a PR, make sure that your code is using PEP 8 standards.
-* If you have an idea for a new feature but don't have the time or unable to implement it, create an issue with the tag new_feature.
+* If you have an idea for a new feature but don't have the time or unable to implement it, create an issue with the tag 'new_feature'.
 * Comment your code thoroughly!
 
 ## License
