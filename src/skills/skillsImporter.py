@@ -5,6 +5,7 @@ import skills.time as time
 import skills.activity as activity
 import skills.dictionary as dictionary
 import skills.browser as browser
+import skills.laptop as laptop
 
 
 def get_skills():
@@ -16,4 +17,5 @@ def get_skills():
     skills.append(activity.skill)
     skills.append(dictionary.skill)
     skills.append(browser.skill)
+    skills.append(laptop.skill)
     return skills
