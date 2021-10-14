@@ -6,6 +6,7 @@ import skills.activity as activity
 import skills.dictionary as dictionary
 import skills.browser as browser
 import skills.laptop as laptop
+import skills.random as random
 
 
 def get_skills():
@@ -18,4 +19,5 @@ def get_skills():
     skills.append(dictionary.skill)
     skills.append(browser.skill)
     skills.append(laptop.skill)
+    skills.append(random.skill)
     return skills

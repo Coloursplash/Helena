@@ -76,7 +76,7 @@ class Helena():
             # check if userInput contains non-empty characters
             userInput = userInput.strip(" \t\n")
             if userInput != "":
-                action = self.check_action(userInput)
+                action = self.check_action(userInput.lower())
                 if action != None:
                     action.run()
             else:
@@ -86,7 +86,7 @@ class Helena():
     def execute_once(self, userInput):
         userInput = userInput.strip(" \t\n")
         if userInput != "":
-            action = self.check_action(userInput)
+            action = self.check_action(userInput.lower())
             if action != None:
                 action.run()
         else:

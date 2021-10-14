@@ -16,12 +16,17 @@ class Battery(Action):
 
     def run(self):
         battery = sensors_battery()
-        print(Fore.RED + "Helena: Current battery is at " + str(battery.percent) + "%")
+        print(Fore.BLUE + "Helena: Current battery is at " + str(battery.percent) + "%.")
         if battery.power_plugged:
-            print(Fore.RED + "Helena: The battery is charging")
+            print(Fore.BLUE + "Helena: The battery is charging" + ".")
         else:
-            print(Fore.RED + "Helena: The battery is discharging")
-        print(Fore.RED + "Helena: The battery will last" + str(battery.secsleft))
+            print(Fore.BLUE + "Helena: The battery is discharging" + ".")
+
+        minutes, seconds = divmod(battery.secsleft, 60)
+        hours, minutes = divmod(minutes, 60)
+        formatted_time = "%dhr %02dm %02ds" % (hours, minutes, seconds)
+        
+        print(Fore.BLUE + "Helena: The battery will last " + formatted_time + ".")
 
 
 battery = Battery()
